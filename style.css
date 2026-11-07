@@ -1,0 +1,31 @@
+h1{
+    color: chocolate;
+}
+h1:hover{
+    color: beige;
+}
+button{
+    width: 250px;
+    height: 250px;
+}
+@media (orientation: landscape) , (orientation: portrait) ,(max-width:111px) {
+    body{
+        background-color: red;
+    }
+}
+@keyframes move {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-127px);
+    }
+}
+body{
+    max-width: 1500px;
+    box-sizing: border-box;
+}
+video{
+    width: 800px;
+    height: 200px;
+}
